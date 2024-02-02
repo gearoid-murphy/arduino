@@ -1,7 +1,7 @@
 #include <Wire.h>
 #include "Adafruit_TCS34725.h"
 
-Adafruit_TCS34725 tcs = Adafruit_TCS34725(TCS34725_INTEGRATIONTIME_2_4MS, TCS34725_GAIN_4X);
+Adafruit_TCS34725 tcs = Adafruit_TCS34725(TCS34725_INTEGRATIONTIME_2_4MS,  TCS34725_GAIN_60X);
 
 void setup() {
   Serial.begin(115200);
